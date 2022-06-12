@@ -1,3 +1,7 @@
+html {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -8,19 +12,22 @@ body {
 
 button {
   width: fit-content;
-  background-color: aqua;
+  background-color: whitesmoke;
+  border: 5px black solid;
+  height: 40px;
+  border-radius: 40px;
 }
 
 .gridContainer {
-  border: 10px red solid;
+  border: 10px black solid;
   width: min-content;
 }
 
 .pixel {
-  width: 30px;
-  height: 30px;
-  border: 2px blue solid;
-  background-color: aqua;
+  width: 20px;
+  height: 20px;
+  border: 1px grey solid;
+  background-color: whitesmoke;
 }
 
 .row {
