@@ -1,6 +1,14 @@
 body {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+button {
+  width: fit-content;
+  background-color: aqua;
 }
 
 .gridContainer {
@@ -14,10 +22,6 @@ body {
   border: 2px blue solid;
   background-color: aqua;
 }
-
-/* .pixel:hover {
-    background-color: black;
-} */
 
 .row {
   display: flex;
