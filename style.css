@@ -1,0 +1,24 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.gridContainer {
+  border: 10px red solid;
+  width: min-content;
+}
+
+.pixel {
+  width: 30px;
+  height: 30px;
+  border: 2px blue solid;
+  background-color: aqua;
+}
+
+.pixel:hover {
+    background-color: black;
+}
+
+.row {
+  display: flex;
+}
