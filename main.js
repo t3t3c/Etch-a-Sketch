@@ -1,3 +1,5 @@
+function paint() {}
+
 function createGrid(size) {
   let gridContainer = document.querySelector(".gridContainer");
   for (let i = 0; i < size; i++) {
@@ -11,4 +13,15 @@ function createGrid(size) {
     }
   }
 }
+
+function addHoverEffect() {
+  const grid = document.querySelectorAll(".pixel");
+  grid.forEach((pixel) => {
+    pixel.addEventListener("mouseover", (e) => {
+      console.log(e);
+      e.target.style.backgroundColor = "black";
+    });
+  });
+}
 createGrid(16);
+addHoverEffect();
