@@ -15,9 +15,9 @@ body {
   background-color: aqua;
 }
 
-.pixel:hover {
+/* .pixel:hover {
     background-color: black;
-}
+} */
 
 .row {
   display: flex;
